@@ -84,3 +84,29 @@
 .mb-3 {
   $input-border-radius-sm: 50px;
 }
+/* MOVE BOX TO CENTER  */
+#shadow1 {
+  width: 600px;
+  height: 800px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #647ff5;
+  
+}
+
+blockquote {
+  flex-direction: row;
+  width: 50%;
+  padding: 20px;
+  box-shadow:
+    inset 0 -3em 3em #0a0d184d,
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(121, 117, 117, 0.6) }
+
+  #blockquote1 {
+ margin-right: 100%;
+      padding: 20px;
+      box-shadow:
+        inset 0 -3em 3em #3f5ff04d,
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgba(228, 110, 110, 0.6) }
