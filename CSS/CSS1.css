@@ -18,6 +18,11 @@
   height: auto;
 }
 
+.text{
+  font-size: 45px;
+  color: rgba(235, 235, 235, 1);#;
+}
+
 .overlay {
   position: absolute;
   bottom: 0;
