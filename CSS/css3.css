@@ -1,24 +1,53 @@
 #shadow1 {
-    width: 600px;
-    height: 800px;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px #647ff5; 
-  }
-  
-  blockquote {
-    flex-direction: row;
-    width: 50%;
-    padding: 20px;
-    box-shadow:
-      inset 0 -3em 3em #0a0d184d,
-      0 0 0 2px white,
-      0.3em 0.3em 1em rgba(121, 117, 117, 0.6) }
-  
-    #blockquote1 {
-   margin-right: 100%;
-        padding: 20px;
-        box-shadow:
-          inset 0 -3em 3em #3f5ff04d,
-          0 0 0 2px white,
-          0.3em 0.3em 1em rgba(228, 110, 110, 0.6) }
+  width: 600px;
+  height: 800px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #647ff5;
+}
+
+blockquote {
+  flex-direction: row;
+  width: 50%;
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em #0a0d184d, 0 0 0 2px white,
+    0.3em 0.3em 1em rgba(121, 117, 117, 0.6);
+}
+
+flex-grid {
+  flex-direction: row-reverse;
+}
+.table_component {
+  overflow: auto;
+  width: 100%;
+}
+
+.table_component table {
+  border: 1px solid #a5a5a8;
+  height: 100%;
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: left;
+}
+
+.table_component caption {
+  caption-side: top;
+  text-align: left;
+  font-size: ;
+}
+
+.table_component th {
+  border: 1px solid #dededf;
+  background-color: #eceff1;
+  color: #000000;
+  padding: 5px;
+}
+
+.table_component td {
+  border: 1px solid #dededf;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+}
